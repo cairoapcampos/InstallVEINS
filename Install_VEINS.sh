@@ -80,18 +80,20 @@ sleep 3
 echo
 tar -xvzf omnetpp-5.3-src-linux.tgz
 rm omnetpp-5.3-src-linux.tgz
-echo "Adicionando o caminho do OMNET ++ na variável PATH"
-sleep 3
 echo
 echo " " >> $HOME/.bashrc
 echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> $HOME/.bashrc
 source $HOME/.bashrc
-echo "Compilando o OMNET ++"
+echo "Checando arquivos para a compilação do OMNET ++: "
 sleep 3
 echo
 cd omnetpp-5.3
 ./configure
-#make
+echo 
+echo "Compilnado o OMNET ++: "
+sleep 3
+echo
+make
 #echo "Adicionando atalhos do OMNET++"
 #echo
 #make install-menu-item
