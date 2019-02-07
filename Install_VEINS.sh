@@ -81,9 +81,9 @@ echo
 tar -xvzf omnetpp-5.3-src-linux.tgz
 rm omnetpp-5.3-src-linux.tgz
 echo
-echo " " >> echo " " >> ~/.profile
-echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> echo " " >> ~/.profile
-source echo " " >> ~/.profile
+echo " " >> ~/.profile
+echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> ~/.profile
+source ~/.profile
 echo "Checando arquivos para a compilação do OMNET ++: "
 sleep 3
 echo
