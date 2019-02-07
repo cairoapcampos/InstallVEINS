@@ -43,7 +43,9 @@ clear
 
 echo
 # Adicionar repositório  Qtenv para visualizações em 3D
-echo "Instalando o Qtenv para visualizações em 3D: "
+echo "######################################"
+echo "###        Instalando o Qtenv      ###"
+echo "######################################"
 sleep 3
 echo
 sudo add-apt-repository -y ppa:ubuntugis/ppa
