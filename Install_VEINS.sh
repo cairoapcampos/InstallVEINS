@@ -77,6 +77,7 @@ rm omnetpp-5.3-src-linux.tgz
 echo " " >> ~/.bashrc
 echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> ~/.bashrc
 source ~/.bashrc
+cd omnetpp-5.3
 ./configure
 make
 echo "Adicionando atalhos do OMNET++"
