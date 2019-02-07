@@ -63,7 +63,9 @@ clear
 echo
 cd $HOME/src
 # Baixar e compilar o  OMNET++
-echo "Instalando OMNET++:"
+echo "######################################"
+echo "###       Instalando o OMNET++     ###"
+echo "######################################"
 echo
 wget -c https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz
 echo
