@@ -17,7 +17,10 @@ sudo apt update
 clear
 
 echo
-echo "Instalando pacotes necessários:"
+# Instala compiladores e bibliotecas
+echo "############################################################"
+echo "###  Instalando compiladores e bibliotecas necessários   ###"
+echo "############################################################"
 sleep 3
 
 echo
