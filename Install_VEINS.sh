@@ -120,11 +120,20 @@ sleep 3
 cd $HOME/Downloads/Install_VEINS  
 sudo mv  StartProxyPort.sh $HOME/src/veins-veins-4.7.1
 sudo mv  StartProxyPort.xpm $HOME/src/veins-veins-4.7.1
-sudo mv  StartProxyPort.desktop /usr/share/applications
 sudo chmod +x  $HOME/src/veins-veins-4.7.1/StartProxyPort.sh
-sleep 3
+
+# Cria atalho no menu de programas
+echo "[Desktop Entry]" > /usr/share/applications/StartProxyPort.desktop
+echo "Name=StartProxyPort" >> /usr/share/applications/StartProxyPort.desktop
+echo "Comment=Inicia um Proxy na porta 9999" >> /usr/share/applications/StartProxyPort.desktop
+echo "Exec= $HOME/src/veins-veins-4.7.1/StartProxyPort.sh" >> /usr/share/applications/StartProxyPort.desktop
+echo "Icon= $HOME/src/veins-veins-4.7.1/StartProxyPort.xpm" >> /usr/share/applications/StartProxyPort.desktop
+echo "Terminal=true" >> /usr/share/applications/StartProxyPort.desktop
+echo "Type=Application" >> /usr/share/applications/StartProxyPort.desktop
+echo "Name[en_US]=StartProxy" >> /usr/share/applications/StartProxyPort.desktop
+echo "Name[pt_BR]=StartProxyPort" >> /usr/share/applications/StartProxyPort.desktop
 clear
 
-echo ""
+echo
 echo "Instalação Finalizada :)"
-echo ""
+echo
