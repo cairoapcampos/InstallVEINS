@@ -2,10 +2,14 @@
 
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
+### Baixar Imagem ISO
 
-Baixa Xubuntu Core 16.04:
+1. Baixa imagem ISO do GNU/LINUX Ubuntu Minimal:
 
 http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/mini.iso
+
+
+1. No final escolher a opção 1. Baixa imagem ISO do GNU/LINUX Ubuntu Minimal::
 
 
 ![Initial Screen](https://github.com/cairoapcampos/Install_VEINS/raw/master/img.png)
