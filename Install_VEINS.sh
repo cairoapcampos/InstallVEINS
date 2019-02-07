@@ -80,38 +80,38 @@ source ~/.bashrc
 cd omnetpp-5.3
 ./configure
 make
-echo "Adicionando atalhos do OMNET++"
-echo
-make install-menu-item
-make install-desktop-icon
-echo "Atalhos adicionados!"
-sleep 3
-clear
+#echo "Adicionando atalhos do OMNET++"
+#echo
+#make install-menu-item
+#make install-desktop-icon
+#echo "Atalhos adicionados!"
+#sleep 3
+#clear
 
-echo
-cd $HOME/src
+#echo
+#cd $HOME/src
 # Baixar o VEINS
-echo "######################################"
-echo "###        Download do VEINS       ###"
-echo "######################################"
-echo
-wget -c https://veins.car2x.org/download/veins-4.7.1.zip
-echo
-unzip veins-4.7.1.zip
-rm veins-4.7.1.zip
-clear
+#echo "######################################"
+#echo "###        Download do VEINS       ###"
+#echo "######################################"
+#echo
+#wget -c https://veins.car2x.org/download/veins-4.7.1.zip
+#echo
+#unzip veins-4.7.1.zip
+#rm veins-4.7.1.zip
+#clear
 
-echo "Movendo icone e script de proxy VEINS"
-sleep 3
-cd $HOME/Downloads/Install_VEINS  
-sudo mv  StartProxyPort.sh $HOME/src/veins-veins-4.7.1
-sudo mv  StartProxyPort.xpm $HOME/src/veins-veins-4.7.1
-sudo mv  StartProxyPort.desktop /usr/share/applications
-sudo chmod +x  $HOME/src/veins-veins-4.7.1/StartProxyPort.sh
-sleep 3
-clear
+#echo "Movendo icone e script de proxy VEINS"
+#sleep 3
+#cd $HOME/Downloads/Install_VEINS  
+#sudo mv  StartProxyPort.sh $HOME/src/veins-veins-4.7.1
+#sudo mv  StartProxyPort.xpm $HOME/src/veins-veins-4.7.1
+#sudo mv  StartProxyPort.desktop /usr/share/applications
+#sudo chmod +x  $HOME/src/veins-veins-4.7.1/StartProxyPort.sh
+#sleep 3
+#clear
 
 
-echo ""
-echo "Instalação Finalizada :)"
-echo ""
+#echo ""
+#echo "Instalação Finalizada :)"
+#echo ""
