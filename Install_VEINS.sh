@@ -70,9 +70,12 @@ echo "######################################"
 echo "###       Instalando o OMNET++     ###"
 echo "######################################"
 echo
+echo "Baixando arquivo para a instalação: "
+sleep 3
+echo
 wget -c https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz
 echo
-echo "Descompactando arquivo baixado"
+echo "Descompactando arquivo baixado: "
 sleep 3
 echo
 tar -xvzf omnetpp-5.3-src-linux.tgz
