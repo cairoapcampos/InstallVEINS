@@ -23,9 +23,7 @@ echo "############################################################"
 echo "###  Instalando compiladores e bibliotecas necessários   ###"
 echo "############################################################"
 sleep 3
-
 echo
-# Instalação dos pacotes necessários
 sudo apt install -y build-essential gcc g++ bison flex perl tcl-dev tk-dev blt libxml2-dev zlib1g-dev default-jre \
 doxygen graphviz libwebkitgtk-1.0-0 openmpi-bin libopenmpi-dev libpcap-dev autoconf automake libtool libproj-dev \
 libgdal1-dev libfox-1.6-dev libgdal-dev libxerces-c-dev qt4-dev-tools python python3 qt5-default libqt5opengl5-dev default-jre
