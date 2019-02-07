@@ -72,11 +72,20 @@ echo "######################################"
 echo
 wget -c https://ipfs.omnetpp.org/release/5.3/omnetpp-5.3-src-linux.tgz
 echo
+echo "Descompactando arquivo baixado"
+sleep 3
+echo
 tar -xvzf omnetpp-5.3-src-linux.tgz
 rm omnetpp-5.3-src-linux.tgz
+echo "Adicionando o caminho do OMNET ++ na variável PATH"
+sleep 3
+echo
 echo " " >> ~/.bashrc
 echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> ~/.bashrc
 source ~/.bashrc
+echo "Compilando o OMNET ++"
+sleep 3
+echo
 cd omnetpp-5.3
 ./configure
 make
