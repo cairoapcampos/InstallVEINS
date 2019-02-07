@@ -81,9 +81,12 @@ echo
 tar -xvzf omnetpp-5.3-src-linux.tgz
 rm omnetpp-5.3-src-linux.tgz
 echo
-echo " " >> ~/.profile
-echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> ~/.profile
-source ~/.profile
+# Variável adicionada temporariamente no Bash para a intalação do OMNET ++
+export PATH=$PATH:$HOME/src/omnetpp-5.3/bin
+# Variável adicionada permanentemente no Bash para iniciar o OMNET ++ ao abrir um novo terminal
+echo " " >> ~/.bashrc
+echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> ~/.bashrc
+source ~/.bashrc
 echo "Checando arquivos para a compilação do OMNET ++: "
 sleep 3
 echo
