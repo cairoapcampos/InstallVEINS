@@ -29,7 +29,10 @@ clear
 
 echo
 # Adicionar repositório do SUMO e instalá-lo
-echo "Instalando o SUMO: "
+echo "######################################"
+echo "###        Instalando o SUMO       ###"
+echo "######################################"
+echo
 sleep 3
 echo
 sudo add-apt-repository -y ppa:sumo/stable
