@@ -11,8 +11,8 @@ http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/image
 
 2. No final da instalção marcar as opções:
 
-Utilitários de sistema padrão
-Xubuntu minimal installation
+`Utilitários de sistema padrão`
+`Xubuntu minimal installation`
 
 
 ![Initial Screen](https://github.com/cairoapcampos/Install_VEINS/raw/master/img.png)
