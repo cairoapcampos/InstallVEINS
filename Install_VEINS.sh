@@ -88,7 +88,7 @@ echo
 cd $HOME/src
 # Baixar o VEINS
 echo "######################################"
-echo "###  Fazendo o download do VEINS   ###"
+echo "###        Download do VEINS       ###"
 echo "######################################"
 echo
 wget -c https://veins.car2x.org/download/veins-4.7.1.zip
