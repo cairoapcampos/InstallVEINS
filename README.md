@@ -2,7 +2,10 @@
 
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-### Passos Básicos
+
+![Initial Screen](https://github.com/cairoapcampos/Install_VEINS/raw/master/img.png)
+
+### Execução do Script
 
 1. Entrar no diretório de Downloads
 
