@@ -4,7 +4,7 @@
 
 ### Baixar Imagem ISO
 
-1. Baixa imagem ISO do GNU/LINUX Ubuntu Minimal:
+1. Baixa imagem ISO do GNU/LINUX Ubuntu Minimal 16.04:
 
 http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/mini.iso
 
