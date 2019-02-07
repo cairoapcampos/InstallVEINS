@@ -11,10 +11,10 @@ echo
 echo "Atualizando lista de pacotes: "
 sleep 3
 echo
-clear
 
 # Atualizar lista de softwares disponiveis nos repositórios
 sudo apt update
+clear
 
 echo
 echo "Instalando pacotes necessários:"
