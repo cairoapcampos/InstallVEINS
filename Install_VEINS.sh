@@ -8,11 +8,12 @@
 clear
 
 echo
-echo "Atualizando lista de pacotes: "
+# Atualizar lista de softwares disponiveis nos repositórios
+echo "#########################################"
+echo "###  Atualizando a lista de pacotes  ###"
+echo "########################################"
 sleep 3
 echo
-
-# Atualizar lista de softwares disponiveis nos repositórios
 sudo apt update
 clear
 
