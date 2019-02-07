@@ -123,15 +123,17 @@ sudo mv  StartProxyPort.xpm $HOME/src/veins-veins-4.7.1
 sudo chmod +x  $HOME/src/veins-veins-4.7.1/StartProxyPort.sh
 
 # Cria atalho no menu de programas
-echo "[Desktop Entry]" > /usr/share/applications/StartProxyPort.desktop
-echo "Name=StartProxyPort" >> /usr/share/applications/StartProxyPort.desktop
-echo "Comment=Inicia um Proxy na porta 9999" >> /usr/share/applications/StartProxyPort.desktop
-echo "Exec= $HOME/src/veins-veins-4.7.1/StartProxyPort.sh" >> /usr/share/applications/StartProxyPort.desktop
-echo "Icon= $HOME/src/veins-veins-4.7.1/StartProxyPort.xpm" >> /usr/share/applications/StartProxyPort.desktop
-echo "Terminal=true" >> /usr/share/applications/StartProxyPort.desktop
-echo "Type=Application" >> /usr/share/applications/StartProxyPort.desktop
-echo "Name[en_US]=StartProxy" >> /usr/share/applications/StartProxyPort.desktop
-echo "Name[pt_BR]=StartProxyPort" >> /usr/share/applications/StartProxyPort.desktop
+touch StartProxyPort.desktop
+echo "[Desktop Entry]" > StartProxyPort.desktop
+echo "Name=StartProxyPort" >> StartProxyPort.desktop
+echo "Comment=Inicia um Proxy na porta 9999" >> StartProxyPort.desktop
+echo "Exec= $HOME/src/veins-veins-4.7.1/StartProxyPort.sh" >> StartProxyPort.desktop
+echo "Icon= $HOME/src/veins-veins-4.7.1/StartProxyPort.xpm" >> StartProxyPort.desktop
+echo "Terminal=true" >> StartProxyPort.desktop
+echo "Type=Application" >> StartProxyPort.desktop
+echo "Name[en_US]=StartProxy" >> StartProxyPort.desktop
+echo "Name[pt_BR]=StartProxyPort" >> StartProxyPort.desktop
+sudo mv StartProxyPort.desktop /usr/share/applications
 clear
 
 echo
