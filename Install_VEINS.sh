@@ -29,7 +29,7 @@ clear
 
 echo
 # Adicionar repositório do SUMO e instalá-lo
-echo "Instalando SUMO: "
+echo "Instalando o SUMO: "
 sleep 3
 echo
 sudo add-apt-repository -y ppa:sumo/stable
@@ -41,7 +41,7 @@ clear
 
 echo
 # Adicionar repositório  Qtenv para visualizações em 3D
-echo "Instalando Qtenv: "
+echo "Instalando o Qtenv para visualizações em 3D: "
 sleep 3
 echo
 sudo add-apt-repository -y ppa:ubuntugis/ppa
@@ -71,9 +71,12 @@ echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> ~/.bashrc
 source ~/.bashrc
 ./configure
 make
-
+echo "Adicionando atalhos do OMNET++"
+echo
 make install-menu-item
 make install-desktop-icon
+echo "Atalhos adicionados!"
+sleep 3
 clear
 
 echo
