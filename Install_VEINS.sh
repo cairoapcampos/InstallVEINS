@@ -10,8 +10,8 @@ clear
 echo
 # Atualizar lista de softwares disponiveis nos repositórios
 echo "#########################################"
-echo "###  Atualizando a lista de pacotes  ###"
-echo "########################################"
+echo "###  Atualizando a lista de pacotes   ###"
+echo "#########################################"
 sleep 3
 echo
 sudo apt update
