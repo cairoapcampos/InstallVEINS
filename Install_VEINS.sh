@@ -90,6 +90,17 @@ unzip veins-4.7.1.zip
 rm veins-4.7.1.zip
 clear
 
+echo "Movendo icone e script de proxy VEINS"
+sleep 3
+cd $HOME/Downloads/Install_VEINS  
+sudo mv  StartProxyPort.sh $HOME/src/veins-veins-4.7.1
+sudo mv  StartProxyPort.xpm $HOME/src/veins-veins-4.7.1
+sudo mv  StartProxyPort.desktop /usr/share/applications
+sudo chmod +x  $HOME/src/veins-veins-4.7.1/StartProxyPort.sh
+sleep 3
+clear
+
+
 echo ""
 echo "Instalação Finalizada :)"
 echo ""
