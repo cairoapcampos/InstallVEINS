@@ -3,6 +3,11 @@
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
 
+Baixa Xubuntu Core 16.04:
+
+http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/mini.iso
+
+
 ![Initial Screen](https://github.com/cairoapcampos/Install_VEINS/raw/master/img.png)
 
 ### Execução do Script
