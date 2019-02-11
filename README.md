@@ -62,4 +62,6 @@ Para testar, pode-se utilizar os exemplos de simulação presentes do diretório
 
 `./dyna`
 
+Obs: Por padrão, as amostras serão executadas usando as bibliotecas gráficas Tcl/Tk.
+
 
