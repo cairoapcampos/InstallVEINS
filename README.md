@@ -48,3 +48,6 @@ http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/image
 Obs: Script de instalação homologado para a versão 16.04 do GNU/Linux Ubuntu.
 
 
+### Testando o ambiente
+
+
