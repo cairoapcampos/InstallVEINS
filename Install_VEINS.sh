@@ -40,7 +40,7 @@ then
     echo "Você está usando uma versão do GNU/Linux Ubuntu 18.04"
     echo 
     sleep 5
-    cho "Biblioteca especifica para a versão 18.04: "
+    echo "Biblioteca especifica para a versão 18.04: "
     echo
     sleep 3
     sudo apt install -y gdal-bin
