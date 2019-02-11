@@ -17,6 +17,8 @@ echo
 sudo apt update
 clear
 
+version=$(cat /etc/lsb-release | grep DISTRIB_RELEASE | cut -f 2 -d=)
+
 # Instala compiladores e bibliotecas
 echo "############################################################"
 echo "###  Instalando compiladores e bibliotecas necessários   ###"
