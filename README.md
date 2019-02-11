@@ -64,7 +64,7 @@ Para testar, pode-se utilizar os exemplos de simulação presentes do diretório
 
 Obs: Por padrão, as amostras serão executadas usando as bibliotecas gráficas Tcl/Tk.
 
-Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo terminal para que as variavél $PATH seja recarregada. Para iniciar o programa basta digitar o comando:
+Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo terminal para que a variavél $PATH seja recarregada. Para iniciar o programa basta digitar o comando:
 
 `$ omnetpp`
 
