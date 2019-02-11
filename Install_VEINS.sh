@@ -30,20 +30,20 @@ then
     echo "Você está usando uma versão do GNU/Linux Ubuntu 16.04"
     echo
     sleep 5
-    sudo apt install -y libgdal-dev libgdal1-dev build-essential gcc g++ bison flex perl tcl-dev tk-dev blt libxml2-dev \
-    zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0-0 openmpi-bin libopenmpi-dev libpcap-dev autoconf automake \
-    libtool libproj-dev libfox-1.6-dev  libxerces-c-dev qt4-dev-tools python python3 qt5-default libqt5opengl5-dev \
-    default-jre
+    echo "Biblioteca especifica para a versão 16.04: "
+    echo
+    sleep 3
+    sudo apt install -y libgdal1-dev 
 elif [ $version = "18.04" ]
 then
     echo
     echo "Você está usando uma versão do GNU/Linux Ubuntu 18.04"
     echo 
     sleep 5
-    sudo apt install -y libgdal-dev gdal-bin build-essential gcc g++ bison flex perl tcl-dev tk-dev blt libxml2-dev \
-    zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0-0 openmpi-bin libopenmpi-dev libpcap-dev autoconf automake \
-    libtool libproj-dev libfox-1.6-dev libxerces-c-dev qt4-dev-tools python python3 qt5-default \
-    libqt5opengl5-dev default-jre
+    cho "Biblioteca especifica para a versão 18.04: "
+    echo
+    sleep 3
+    sudo apt install -y gdal-bin
 else
     echo
     echo "Você está usando um sistema operacional que não foi homologado para a instalação!"
@@ -51,6 +51,14 @@ else
     sleep 5
     exit
 fi
+
+echo
+echo "Instalando pacotes comuns entre os sistemas homologados: "
+echo
+sleep 3
+sudo apt install -y libgdal-dev build-essential gcc g++ bison flex perl tcl-dev tk-dev blt libxml2-dev zlib1g-dev default-jre \
+doxygen graphviz libwebkitgtk-1.0-0 openmpi-bin libopenmpi-dev libpcap-dev autoconf automake libtool libproj-dev \
+libfox-1.6-dev libxerces-c-dev qt4-dev-tools python python3 qt5-default libqt5opengl5-dev default-jre
 
 clear
 
