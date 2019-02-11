@@ -68,6 +68,20 @@ Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo
 
 `$ omnetpp`
 
+#### Importar VEINS para o OMNET++
+
+
+#### SUMO
+
+1.Para testar o SUMO, entrar no diretório examples do VEINS:
+
+`cd $HOME/src/veins-veins-4.7.1/examples/veins`
+
+2.Executar os comandos: 
+
+`sumo -c erlangen.sumo.cfg && sumo-gui -c erlangen.sumo.cfg`
+
+Obs: Na tela aparecerá uma linha "Loading configuration... done." referente ao primeiro e ao segundocomando, em seguida aparecerá uma janela grafica do SUMO que inicia um cronometro na simulação que vai de 0 a 1000.
 
 
 
