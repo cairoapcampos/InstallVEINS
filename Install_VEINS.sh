@@ -17,7 +17,6 @@ echo
 sudo apt update
 clear
 
-
 # Instala compiladores e bibliotecas
 echo "############################################################"
 echo "###  Instalando compiladores e bibliotecas necessários   ###"
