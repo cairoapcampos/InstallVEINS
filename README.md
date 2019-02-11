@@ -81,7 +81,7 @@ Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo
 
 `sumo -c erlangen.sumo.cfg && sumo-gui -c erlangen.sumo.cfg`
 
-Obs: Na tela aparecerá uma linha "Loading configuration... done." referente ao primeiro e ao segundocomando, em seguida aparecerá uma janela grafica do SUMO que inicia um cronometro na simulação que vai de 0 a 1000.
+Obs: Na tela aparecerá uma linha "Loading configuration... done." referente ao primeiro e ao segundo comando, em seguida aparecerá uma janela gráfica do SUMO na qual é iniciado um cronometro na simulação que vai de 0 a 1000.
 
 
 
