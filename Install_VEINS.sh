@@ -30,17 +30,43 @@ libgdal1-dev libfox-1.6-dev libgdal-dev libxerces-c-dev qt4-dev-tools python pyt
 clear
 
 echo
+echo "Criando o diretório: $HOME/src"
+echo
+mkdir $HOME/src
+clear
+
+echo
+cd $HOME/src
 # Adicionar repositório do SUMO e instalá-lo
 echo "######################################"
 echo "###        Instalando o SUMO       ###"
 echo "######################################"
+echo
+echo "Baixando arquivo para a instalação: "
 sleep 3
-#echo
-#sudo add-apt-repository -y ppa:sumo/stable
-#echo
-#sudo apt update
-#echo
-#sudo apt install -y sumo sumo-tools sumo-doc
+echo
+wget -c https://ufpr.dl.sourceforge.net/project/sumo/sumo/version%200.32.0/sumo-all-0.32.0.tar.gz
+echo
+echo "Descompactando arquivo baixado: "
+sleep 3
+echo
+tar -vzxf sumo-all-0.32.0.tar.gz
+rm sumo-all-0.32.0.tar.gz
+echo
+echo "Checando arquivos para a compilação do SUMO: "
+sleep 3
+echo
+cd sumo-0.32.0
+./configure
+echo 
+echo "Compilnado o SUMO: "
+sleep 3
+echo
+make
+echo "Instalando o SUMO: "
+echo
+sudo make install
+sleep 3
 clear
 
 echo
@@ -55,12 +81,6 @@ echo
 sudo apt update
 echo
 sudo apt install -y openscenegraph-plugin-osgearth libosgearth-dev
-clear
-
-echo
-echo "Criando o diretório: $HOME/src"
-echo
-mkdir $HOME/src
 clear
 
 echo
