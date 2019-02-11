@@ -56,12 +56,18 @@ Para testar, pode-se utilizar os exemplos de simulação presentes do diretório
 
 1.Entrando no diretório:
 
-`cd $HOME/src/omnetpp-5.3/samples/dyna`
+`$ cd $HOME/src/omnetpp-5.3/samples/dyna`
 
 2. Execução:
 
-`./dyna`
+`$ ./dyna`
 
 Obs: Por padrão, as amostras serão executadas usando as bibliotecas gráficas Tcl/Tk.
+
+Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo terminal para que as variavél $PATH seja recarregada. Para iniciar o programa basta digitar o comando:
+
+`$ omnetpp`
+
+
 
 
