@@ -92,6 +92,8 @@ Obs: Na tela aparecerá uma linha "Loading configuration... done." referente ao 
 
 2. No OMNeT ++ 5 IDE, para usar o cenário de demonstração do Veins, dentro da caixa `Project Explorer` deve-se clicar com o botão direito do mouse em `veins/examples/veins/omnetpp.ini` e escolher ao clicar com o botão direito `Run As> OMNeT ++ simulation`.
 
+3. Na janela que se abrir clicar em Run para executar a simulação.
+
 
 
 Fontes:
