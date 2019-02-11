@@ -68,15 +68,6 @@ Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo
 
 `$ omnetpp`
 
-#### Importar VEINS para o OMNET++
-
-1. Para importar o projeto no OMNET++ clicar em `File > Import > General: Existing Projects` e selecionar a pasta do VEINS descompactada no diretório src. Aguardar a importação, indicada por uma barra de progresso no canto inferior do software.
-
-2. Para que o projeto seja construído deve-se selecionar a opção `Project > Build All`. Da mesma forma do passo anteior deve-se aguardar a construção do projeto, indicada por uma barra de progresso no canto inferior do software.
-
-
-
-
 #### SUMO
 
 1.Para testar o SUMO, entrar no diretório examples do VEINS:
@@ -89,9 +80,20 @@ Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo
 
 Obs: Na tela aparecerá uma linha "Loading configuration... done." referente ao primeiro e ao segundo comando, em seguida aparecerá uma janela gráfica do SUMO na qual é iniciado um cronometro na simulação que vai de 0 a 1000.
 
+#### Importar VEINS para o OMNET++
+
+1. Para importar o projeto no OMNET++ clicar em `File > Import > General: Existing Projects` e selecionar a pasta do VEINS descompactada no diretório src. Aguardar a importação, indicada por uma barra de progresso no canto inferior do software.
+
+2. Para que o projeto seja construído deve-se selecionar a opção `Project > Build All`. Da mesma forma do passo anteior deve-se aguardar a construção do projeto, indicada por uma barra de progresso no canto inferior do software.
+
+### Teste de integração entre SUMO e OMNET++
+
+
 
 Fontes:
+
 https://veins.car2x.org/documentation/instant-veins/
+
 http://veins.car2x.org/tutorial/
 
 
