@@ -30,10 +30,10 @@ then
     echo "Você está usando uma versão do GNU/Linux Ubuntu 16.04"
     echo
     sleep 5
-    sudo apt install -y libgdal1-dev build-essential gcc g++ bison flex perl tcl-dev tk-dev blt libxml2-dev zlib1g-dev \
-    default-jre doxygen graphviz libwebkitgtk-1.0-0 openmpi-bin libopenmpi-dev libpcap-dev autoconf automake libtool \
-    libproj-dev libgdal1-dev libfox-1.6-dev libgdal-dev libxerces-c-dev qt4-dev-tools python python3 qt5-default \
-    libqt5opengl5-dev default-jre
+    sudo apt install -y libgdal-dev libgdal1-dev build-essential gcc g++ bison flex perl tcl-dev tk-dev blt libxml2-dev \
+    zlib1g-dev default-jre doxygen graphviz libwebkitgtk-1.0-0 openmpi-bin libopenmpi-dev libpcap-dev autoconf automake \
+    libtool libproj-dev libfox-1.6-dev  libxerces-c-dev qt4-dev-tools python python3 qt5-default libqt5opengl5-dev \
+    default-jre
 elif [ $version = "18.04" ]
 then
     echo
