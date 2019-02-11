@@ -2,22 +2,6 @@
 
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-### Baixar Imagem ISO
-
-1. Baixa imagem ISO do GNU/LINUX Ubuntu Minimal 16.04:
-
-http://archive.ubuntu.com/ubuntu/dists/xenial/main/installer-amd64/current/images/netboot/mini.iso
-
-
-2. No final da instalção marcar as opções:
-
-`Utilitários de sistema padrão`
-
-`Xubuntu minimal installation`
-
-
-![Initial Screen](https://github.com/cairoapcampos/Install_VEINS/raw/master/img.png)
-
 ### Execução do Script
 
 1. Entrar no diretório de Downloads
