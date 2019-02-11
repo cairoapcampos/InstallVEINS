@@ -37,8 +37,8 @@ then
 else
     echo
     echo "Você está usando um sistema operacional que não foi homologado para a instalação!"
-    sleep 5
     echo
+    sleep 5
     exit
 fi
 
