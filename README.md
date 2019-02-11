@@ -96,6 +96,8 @@ Obs: Na tela aparecerá uma linha "Loading configuration... done." referente ao 
 
 
 
+
+
 Fontes:
 
 https://veins.car2x.org/documentation/instant-veins/
