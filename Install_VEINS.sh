@@ -35,12 +35,12 @@ echo "######################################"
 echo "###        Instalando o SUMO       ###"
 echo "######################################"
 sleep 3
-echo
-sudo add-apt-repository -y ppa:sumo/stable
-echo
-sudo apt update
-echo
-sudo apt install -y sumo sumo-tools sumo-doc
+#echo
+#sudo add-apt-repository -y ppa:sumo/stable
+#echo
+#sudo apt update
+#echo
+#sudo apt install -y sumo sumo-tools sumo-doc
 clear
 
 echo
