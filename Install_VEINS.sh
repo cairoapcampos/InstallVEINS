@@ -24,19 +24,22 @@ echo "############################################################"
 sleep 3
 if [ $version = "16.04" ]
 then
-echo
-echo "Você está usando uma versão do GNU/Linux Ubuntu 16.04"
-echo
-sudo apt install -y libgdal1-dev
+    echo
+    echo "Você está usando uma versão do GNU/Linux Ubuntu 16.04"
+    echo
+    sudo apt install -y libgdal1-dev
 elif [ $version = "18.04" ]
 then
-echo
-echo "Você está usando uma versão do GNU/Linux Ubuntu 18.04"
-echo 
-sudo apt install -y libgdal-dev gdal-bin
+    echo
+    echo "Você está usando uma versão do GNU/Linux Ubuntu 18.04"
+    echo 
+    sudo apt install -y libgdal-dev gdal-bin
 else
-echo
-echo "Você está usando um sistema operacional que não foi homologado para a instalação!"
+    echo
+    echo "Você está usando um sistema operacional que não foi homologado para a instalação!"
+    sleep 5
+    echo
+    exit
 fi
 
 echo
