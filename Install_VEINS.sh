@@ -29,12 +29,14 @@ then
     echo
     echo "Você está usando uma versão do GNU/Linux Ubuntu 16.04"
     echo
+    sleep 5
     sudo apt install -y libgdal1-dev
 elif [ $version = "18.04" ]
 then
     echo
     echo "Você está usando uma versão do GNU/Linux Ubuntu 18.04"
     echo 
+    sleep 5
     sudo apt install -y libgdal-dev gdal-bin
 else
     echo
