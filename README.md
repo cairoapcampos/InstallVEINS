@@ -102,5 +102,11 @@ https://veins.car2x.org/documentation/instant-veins/
 
 http://veins.car2x.org/tutorial/
 
+https://www.youtube.com/watch?v=qxpjHJAre3E
+
+https://doc.omnetpp.org/omnetpp/InstallGuide.pdf
+
+https://www.youtube.com/watch?v=yVEthJz9hLc
+
 
 
