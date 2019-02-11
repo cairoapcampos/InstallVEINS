@@ -49,6 +49,20 @@ Obs: Script de instalação homologado para a versão 16.04 do GNU/Linux Ubuntu.
 
 
 ### Testando o ambiente
-#### Testando o OMNET++
+
+#### OMNET++
+
+Para testar, pode-se utilizar os exemplos de simulação presentes do diretório samples do OMNET++. Abaixo testanmos a simulação dyna:
+
+1.Entrando no diretório:
+
+`cd $HOME/src/omnetpp-5.3/samples/dyna`
+
+2. Execução:
+
+`./dyna`
+
+
+Por exemplo, a simulação de dyna é iniciada inserindo os seguintes comandos:
 
 
