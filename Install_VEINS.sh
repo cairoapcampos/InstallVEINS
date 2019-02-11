@@ -17,15 +17,34 @@ echo
 sudo apt update
 clear
 
-version=$(cat /etc/lsb-release | grep DISTRIB_RELEASE | cut -f 2 -d=)
 
-echo
 # Instala compiladores e bibliotecas
+echo "############################################################"
+echo "###  Instalando compiladores e bibliotecas necessários   ###"
+echo "############################################################"
+sleep 3
+if [ $version = "16.04" ]
+then
+echo
+echo "Você está usando uma versão do GNU/Linux Ubuntu 16.04"
+echo
+sudo apt install -y libgdal1-dev
+elif [ $version = "18.04" ]
+then
+echo
+echo "Você está usando uma versão do GNU/Linux Ubuntu 18.04"
+echo 
+sudo apt install -y libgdal-dev gdal-bin
+else
+echo
+echo "Você está usando um sistema operacional que não foi homologado para a instalação!"
+fi
 
 echo
 sudo apt install -y build-essential gcc g++ bison flex perl tcl-dev tk-dev blt libxml2-dev zlib1g-dev default-jre \
 doxygen graphviz libwebkitgtk-1.0-0 openmpi-bin libopenmpi-dev libpcap-dev autoconf automake libtool libproj-dev \
 libgdal1-dev libfox-1.6-dev libgdal-dev libxerces-c-dev qt4-dev-tools python python3 qt5-default libqt5opengl5-dev default-jre
+
 clear
 
 echo
