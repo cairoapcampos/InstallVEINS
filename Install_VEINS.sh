@@ -159,6 +159,9 @@ mv veins-veins-4.7.1 veins
 rm veins-4.7.1.zip
 clear
 
+ln -s /home/veins/src/omnetpp-5.3 omnetpp
+ln -s /home/veins/src/sumo-0.32.0 sumo
+
 echo "Movendo icone e script de proxy VEINS"
 sleep 3
 cd $HOME/Downloads/Install_VEINS  
