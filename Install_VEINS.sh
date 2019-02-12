@@ -62,7 +62,7 @@ openscenegraph-plugin-osgearth libosgearth-dev
 clear
 
 echo
-echo "Criando o diretório: $HOME/src"
+echo "Criando os diretórios: $HOME/src e $HOME/workspace.omnetpp"
 echo
 sleep 3
 mkdir $HOME/src $HOME/workspace.omnetpp
