@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd $HOME/src/veins-veins-4.7.1/
+cd $HOME/src/veins
 
 ./sumo-launchd.py -vv -c sumo
