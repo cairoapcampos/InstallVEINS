@@ -161,17 +161,17 @@ clear
 echo "Movendo icone e script de proxy VEINS"
 sleep 3
 cd $HOME/Downloads/Install_VEINS  
-sudo mv  StartProxyPort.sh $HOME/src/veins-veins-4.7.1
-sudo mv  StartProxyPort.xpm $HOME/src/veins-veins-4.7.1
-sudo chmod +x  $HOME/src/veins-veins-4.7.1/StartProxyPort.sh
+sudo mv  StartProxyPort.sh $HOME/src/veins
+sudo mv  StartProxyPort.xpm $HOME/src/veins
+sudo chmod +x  $HOME/src/veins/StartProxyPort.sh
 
 # Cria atalho no menu de programas
 touch StartProxyPort.desktop
 echo "[Desktop Entry]" > StartProxyPort.desktop
 echo "Name=StartProxyPort" >> StartProxyPort.desktop
 echo "Comment=Inicia um Proxy na porta 9999" >> StartProxyPort.desktop
-echo "Exec= $HOME/src/veins-veins-4.7.1/StartProxyPort.sh" >> StartProxyPort.desktop
-echo "Icon= $HOME/src/veins-veins-4.7.1/StartProxyPort.xpm" >> StartProxyPort.desktop
+echo "Exec= $HOME/src/veins/StartProxyPort.sh" >> StartProxyPort.desktop
+echo "Icon= $HOME/src/veins/StartProxyPort.xpm" >> StartProxyPort.desktop
 echo "Terminal=true" >> StartProxyPort.desktop
 echo "Type=Application" >> StartProxyPort.desktop
 echo "Name[en_US]=StartProxy" >> StartProxyPort.desktop
