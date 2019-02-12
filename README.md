@@ -2,7 +2,7 @@
 
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-Obs: Script de instalação homologado para a versão 16.04 do GNU/Linux Ubuntu.
+##### Script de instalação homologado para a versão 16.04 e 18.04 do GNU/Linux Ubuntu.
 
 ### Execução do Script
 
@@ -29,10 +29,6 @@ Obs: Script de instalação homologado para a versão 16.04 do GNU/Linux Ubuntu.
 6. Executar o Script
 
 `$ ./Install_VEINS.sh`
-
-
-Obs: Script de instalação homologado para a versão 16.04 do GNU/Linux Ubuntu.
-
 
 ### Testando o ambiente
 
