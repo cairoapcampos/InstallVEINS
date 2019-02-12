@@ -19,7 +19,7 @@ sleep 3
 if [ $version = "16.04" ]
 then
     echo
-    echo "Você está usando uma versão do GNU/Linux Ubuntu 16.04"
+    echo "Você está usando o GNU/Linux Ubuntu 16.04"
     echo
     sleep 5
     sudo add-apt-repository -y ppa:ubuntugis/ppa
@@ -33,7 +33,7 @@ then
 elif [ $version = "18.04" ]
 then
     echo
-    echo "Você está usando uma versão do GNU/Linux Ubuntu 18.04"
+    echo "Você está usando o GNU/Linux Ubuntu 18.04"
     echo 
     sleep 5
     sudo apt update
