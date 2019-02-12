@@ -2,6 +2,8 @@
 
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
+Obs: Script de instalação homologado para a versão 16.04 do GNU/Linux Ubuntu.
+
 ### Execução do Script
 
 1. Entrar no diretório de Downloads
