@@ -97,6 +97,7 @@ echo "Compilnado o SUMO: "
 sleep 3
 echo
 make
+echo
 echo "Instalando o SUMO: "
 echo
 sudo make install
