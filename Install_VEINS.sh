@@ -7,19 +7,10 @@
 
 clear
 
-echo
-# Atualizar lista de softwares disponiveis nos repositórios
-echo "#########################################"
-echo "###  Atualizando a lista de pacotes   ###"
-echo "#########################################"
-sleep 3
-echo
-sudo apt update
-clear
-
 version=$(cat /etc/lsb-release | grep DISTRIB_RELEASE | cut -f 2 -d=)
 
 # Instala compiladores e bibliotecas
+echo
 echo "############################################################"
 echo "###  Instalando compiladores e bibliotecas necessários   ###"
 echo "############################################################"
@@ -30,6 +21,10 @@ then
     echo "Você está usando uma versão do GNU/Linux Ubuntu 16.04"
     echo
     sleep 5
+    sudo add-apt-repository -y ppa:ubuntugis/ppa
+    echo 
+    sudo apt update
+    echo
     echo "Instalando biblioteca especifica para a versão 16.04: "
     echo
     sleep 3
@@ -40,6 +35,8 @@ then
     echo "Você está usando uma versão do GNU/Linux Ubuntu 18.04"
     echo 
     sleep 5
+    sudo apt update
+    echo
     echo "Instalando biblioteca especifica para a versão 18.04: "
     echo
     sleep 3
@@ -58,7 +55,8 @@ echo
 sleep 3
 sudo apt install -y libgdal-dev build-essential gcc g++ bison flex perl tcl-dev tk-dev blt libxml2-dev zlib1g-dev default-jre \
 doxygen graphviz libwebkitgtk-1.0-0 openmpi-bin libopenmpi-dev libpcap-dev autoconf automake libtool libproj-dev \
-libfox-1.6-dev libxerces-c-dev qt4-dev-tools python python3 qt5-default libqt5opengl5-dev default-jre
+libfox-1.6-dev libxerces-c-dev qt4-dev-tools python python3 qt5-default libqt5opengl5-dev default-jre \
+openscenegraph-plugin-osgearth libosgearth-dev
 
 clear
 
@@ -102,20 +100,6 @@ echo "Instalando o SUMO: "
 echo
 sudo make install
 sleep 3
-clear
-
-echo
-# Adicionar repositório  Qtenv para visualizações em 3D
-echo "######################################"
-echo "###        Instalando o Qtenv      ###"
-echo "######################################"
-sleep 3
-echo
-sudo add-apt-repository -y ppa:ubuntugis/ppa
-echo
-sudo apt update
-echo
-sudo apt install -y openscenegraph-plugin-osgearth libosgearth-dev
 clear
 
 echo
