@@ -65,7 +65,7 @@ echo
 echo "Criando o diretório: $HOME/src"
 echo
 sleep 3
-mkdir $HOME/src
+mkdir $HOME/src $HOME/workspace.omnetpp
 clear
 
 echo
