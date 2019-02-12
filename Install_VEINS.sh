@@ -154,6 +154,7 @@ echo
 wget -c https://veins.car2x.org/download/veins-4.7.1.zip
 echo
 unzip veins-4.7.1.zip
+mv veins-veins-4.7.1 veins
 rm veins-4.7.1.zip
 clear
 
