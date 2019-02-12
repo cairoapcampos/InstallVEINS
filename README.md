@@ -2,7 +2,7 @@
 
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-##### Script de instalação homologado para a versão 16.04 e 18.04 do GNU/Linux Ubuntu.
+##### Script de instalação homologado para a versão 16.04 do GNU/Linux Ubuntu. Instalação para a versão 18.04 em fase de teste. 
 
 ### Execução do Script
 
