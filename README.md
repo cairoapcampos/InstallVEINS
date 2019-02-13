@@ -73,13 +73,11 @@ Obs: Na tela aparecerá uma linha "Loading configuration... done." referente ao 
 
 1. Inicie o script StarProxyPort, ele irá imprimir `Listening on port 9999` e aguardará o início da simulação. Deixe está janela aberta.
 
-2. No OMNeT ++ 5 IDE, para usar o cenário de demonstração do Veins, dentro da caixa `Project Explorer` deve-se clicar com o botão direito do mouse em `veins/examples/veins/omnetpp.ini` e escolher a opção `Run As> OMNeT ++ simulation`.
+2. No OMNeT ++ 5 IDE, para usar o cenário de demonstração do Veins, dentro da caixa `Project Explorer` deve-se clicar com o botão direito do mouse em `veins/examples/veins/omnetpp.ini` e escolher a opção `Run As> OMNeT ++ simulation`. 
+
+Obs: Caso seja apresentado algum erro, o veins deve ser recompilado. Para isso primeiro deve-se limpar a compilação anterior entrando no diretório do veins `cd $HOME/src/veins` e rodando o comando `make clean`. Posteriormente o projeto deverá ser construído novamente selecionando-se a opção `Project > Build All`.
 
 3. Na janela que se abrir clicar em Run para executar a simulação.
-
-
-
-
 
 Fontes:
 
