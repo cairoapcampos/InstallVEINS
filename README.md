@@ -2,7 +2,7 @@
 
 ## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
-##### Script de instalação homologado para a versão 16.04 do GNU/Linux Ubuntu. Instalação para a versão 18.04 em fase de teste.
+##### Script de instalação homologado para a versão 16.04 e 18.04 do GNU/Linux Ubuntu.
 ##### Requisitos: GNU/Linux Ubuntu Minimal/Core, 4 GB de RAM e dois núcleos dedicados de processador se utilizar virtualização.
 
 ### Execução do Script
