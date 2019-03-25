@@ -55,7 +55,7 @@ Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo
 
 1.Para testar o SUMO, entrar no diretório examples do VEINS:
 
-`cd $HOME/src/veins-veins-4.7.1/examples/veins`
+`cd $HOME/src/veins/examples/veins`
 
 2.Executar os comandos: 
 
