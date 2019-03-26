@@ -126,6 +126,7 @@ export PATH=$PATH:$HOME/src/omnetpp-5.3/bin
 # Variável adicionada permanentemente no Bash para iniciar o OMNET ++ ao abrir um novo terminal
 echo " " >> ~/.bashrc
 echo "export PATH=$PATH:$HOME/src/omnetpp-5.3/bin" >> ~/.bashrc
+echo "export SUMO_HOME=/home/veins/src/sumo/" >> ~/.bashr
 source ~/.bashrc
 echo "Checando arquivos para a compilação do OMNET ++: "
 sleep 3
