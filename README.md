@@ -65,7 +65,7 @@ Obs: Na tela aparecerá uma linha "Loading configuration... done." referente ao 
 
 #### Importar VEINS para o OMNET++
 
-1. Para importar o projeto no OMNET++ clicar em `File > Import > General: Existing Projects` e selecionar a pasta do VEINS descompactada no diretório src. Aguardar a importação, indicada por uma barra de progresso no canto inferior do software.
+1. Para importar o projeto no OMNET++ clicar em `File > Import > General: Existing Projects into Workspace` e selecionar a pasta do VEINS descompactada no diretório src. Aguardar a importação, indicada por uma barra de progresso no canto inferior do software.
 
 2. Para que o projeto seja construído deve-se selecionar a opção `Project > Build All`. Da mesma forma do passo anteior deve-se aguardar a construção do projeto, indicada por uma barra de progresso no canto inferior do software.
 
