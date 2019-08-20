@@ -51,6 +51,13 @@ Após a instalação, para iniciar o OMNET++ via terminal, deve se abrir um novo
 
 `$ omnetpp`
 
+#### Habilitar numeração de linhas no OMNET++
+
+Para facilitar a indificação de erros ao compilar e executar o código, pode-se numerar as linhas do editor do OMNET++ com os passos seguintes:
+
+1. Na barra de menu, "Window" -> "Preferences...
+2. Em "General" -> "Editors" -> "Text Editors", clique na caixa de seleção "Show line numbers".
+
 #### SUMO
 
 1.Para testar o SUMO, entrar no diretório examples do VEINS:
@@ -90,6 +97,8 @@ https://www.youtube.com/watch?v=qxpjHJAre3E
 https://doc.omnetpp.org/omnetpp/InstallGuide.pdf
 
 https://www.youtube.com/watch?v=yVEthJz9hLc
+
+https://www.saltycrane.com/blog/2007/01/how-to-add-line-numbers-to-editor-in/
 
 
 
