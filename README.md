@@ -1,6 +1,6 @@
 ## Instruções ![status](https://img.shields.io/readthedocs/pip.svg)
 
-#### Requisitos
+### Requisitos
 
 ```
 * GNU/Linux Ubuntu Minimal/Core 16.04 ou 18.04;
