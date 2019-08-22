@@ -1,10 +1,13 @@
 ## Instruções ![status](https://img.shields.io/readthedocs/pip.svg)
 
 ### Homologação
+#### Requisitos
 
-#### Script de instalação homologado para a versão 16.04 e 18.04 do GNU/Linux Ubuntu.
-#### Requisitos: GNU/Linux Ubuntu Minimal/Core, 4 GB de RAM e dois núcleos dedicados de processador se virtualização for utilizada.
-
+```
+* GNU/Linux Ubuntu Minimal/Core 16.04 ou 18.04;
+* 4 GB de RAM;
+* 2 núcleos dedicados de processador se virtualização for utilizada.
+```
 ### Versão dos softwares instalados
 
 * SUMO 0.32.0
