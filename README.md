@@ -1,6 +1,5 @@
 ## Instruções ![status](https://img.shields.io/readthedocs/pip.svg)
 
-### Homologação
 #### Requisitos
 
 ```
