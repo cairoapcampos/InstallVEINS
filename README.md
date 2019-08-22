@@ -1,5 +1,4 @@
-
-## Software e Ambiente
+## Instruções ![status](https://img.shields.io/readthedocs/pip.svg)
 
 #### Script de instalação homologado para a versão 16.04 e 18.04 do GNU/Linux Ubuntu.
 #### Requisitos: GNU/Linux Ubuntu Minimal/Core, 4 GB de RAM e dois núcleos dedicados de processador se virtualização for utilizada.
@@ -9,9 +8,6 @@
 * SUMO 0.32.0
 * OMNET++ 5.3
 * Veins 4.7.1
-
-
-## Instruções de Utilização ![status](https://img.shields.io/readthedocs/pip.svg)
 
 ### Execução do Script
 
