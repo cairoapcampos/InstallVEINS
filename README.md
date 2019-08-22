@@ -5,7 +5,7 @@
 #### Script de instalação homologado para a versão 16.04 e 18.04 do GNU/Linux Ubuntu.
 #### Requisitos: GNU/Linux Ubuntu Minimal/Core, 4 GB de RAM e dois núcleos dedicados de processador se virtualização for utilizada.
 
-### Versões de softwares instalados
+### Versão dos softwares instalados
 
 * SUMO 0.32.0
 * OMNET++ 5.3
