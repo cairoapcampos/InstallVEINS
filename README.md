@@ -27,11 +27,11 @@
 
 3. Fazer o download do repositório
 
-`$ git clone https://github.com/cairoapcampos/Install_VEINS.git`
+`$ git clone https://github.com/cairoapcampos/InstallVeins_4.7.1.git`
 
 4. Entar no diretório que possui o script de instalação
 
-`$ cd Install_VEINS`
+`$ cd InstallVeins_4.7.1`
 
 5. Dar permissão de execução no script
 
