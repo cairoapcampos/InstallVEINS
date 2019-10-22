@@ -165,7 +165,7 @@ ln -s /home/veins/src/sumo-0.32.0 sumo
 
 echo "Movendo icone e script de proxy VEINS"
 sleep 3
-cd $HOME/Downloads/Install_VEINS  
+cd $HOME/Downloads/InstallVeins_4.7.1 
 sudo mv  StartProxyPort.sh $HOME/src/veins
 sudo mv  StartProxyPort.xpm $HOME/src/veins
 sudo chmod +x  $HOME/src/veins/StartProxyPort.sh
